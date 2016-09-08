@@ -83,7 +83,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   		 	    	<div onmouseover="showSubmenu('submenu1', 'menu1');" onmouseout="hideSubmenu('submenu1', 'menu1');">
   	    				<div id="menu1" style="height:26px; text-align:center;"><a href="main.jsp">男装</a></div>
   	    				<!-- 子菜单 -->
-  	    				<div id="submenu1" style="background-color:gray; width:160px; x-index:2; position:absolute;"> <!-- x-index和position是让隐藏菜单在其他div的正上方显示 -->							
+  	    				<div id="submenu1" style="background-color:gray; width:160px; x-index:2; position:absolute;"> 
+  	    				<!-- x-index和position是让隐藏菜单在其他div的正上方显示 -->							
 							<ul style="padding:0px; margin:0px;"> <!-- 消除ul前面默认的空格(table,ul前默认都有空格) -->	
 								<li><a form href="coat.jsp">外套</a></li>
 								<li><a form href="">毛衣</a></li>
